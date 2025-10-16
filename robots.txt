@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Allow: /work-positions
+Allow: /jobs
+Allow: /success-stories
+Allow: /sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow images for better indexing
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Sitemaps
+Sitemap: https://globaldigitalexperts.info/sitemap.xml
+Sitemap: https://globaldigitalexperts.info/image-sitemap.xml

@@ -1,0 +1,18 @@
+# Global Digital Experts - Jobs in Canada
+User-agent: *
+Allow: /
+Allow: /work-positions
+Allow: /blog
+Allow: /blog/*
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://globaldigitalexperts.info/sitemap.xml
+
+# Private paths
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /api/
+
+# Crawl delay
+Crawl-delay: 1
